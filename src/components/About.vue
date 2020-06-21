@@ -26,7 +26,7 @@
           </el-container>
       </div>
       <div style="margin-top: 20px; margin-bottom: 20px;">
-          <video :src="videoUrl" width="650px" controls></video>
+          <video :src="videoUrl" width="800px" controls></video>
           <p>虚拟交通测量平台操作演示</p>
       </div>
       <hr width="1100px" size="0.2" color="#DCDCDC" noshade="noshade"/>
