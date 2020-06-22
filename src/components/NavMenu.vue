@@ -12,8 +12,9 @@
             <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name" style="font-weight: bold;">
                 {{ item.navItem }}
             </el-menu-item>
-            <i class="el-icon-top-right" style="float: right; font-size: 20px; color: #ffffff; padding-top: 20px;"></i>
-            <a href="http://vsensor.openits.cn" style="color: #ffffff; float: right; padding-top: 20px;">登录</a>
+            <i class="el-icon-top-right"></i>
+            <a href="http://vsensor.openits.cn">登录</a>
+            <hr/>
         </el-menu>
     </div>
 </template>
@@ -35,8 +36,25 @@ export default {
 <style scoped>
 a{
     text-decoration: none;
+    color: #ffffff;
+    float: right;
+    padding-top: 22px;
+    font-size: 14px;
 }
-
+i {
+    float: right;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 22px;
+}
+hr {
+    float: right;
+    margin: 22px 35px 0 0;
+    width: 1px;
+    height: 14px;
+    border: none;
+    border-right: 1px solid dimgrey;
+}
 span {
     /*position: absolute;*/
     float: left;

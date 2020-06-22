@@ -8,8 +8,8 @@
                   <p class="as-cont">虚拟交通测量平台对交通场景进行全息重构，并提供各类测量工具支持模拟交通测量
                   </p>
                   <ul class="as-desc">
-                      <li>全息交通场景重构：完备个体检测 + 时空轨迹重构</li>
-                      <li>主动测量式模拟交通测量：流量、车速调查，牌照法、浮动车法...</li>
+                      <li><span style="color: #084062; font-weight: bold;">全息交通场景重构</span>：完备个体检测 + 时空轨迹重构</li>
+                      <li><span style="color: #084062; font-weight: bold;">主动测量式模拟交通测量</span>：流量、车速调查，牌照法、浮动车法...</li>
                   </ul>
                   <br>
                   <div style="text-align: left">
@@ -29,8 +29,8 @@
           <video :src="videoUrl" width="800px" controls></video>
           <p>虚拟交通测量平台操作演示</p>
       </div>
-      <hr width="1100px" size="0.2" color="#DCDCDC" noshade="noshade"/>
-      <p style="font-size: 10px; color: grey;">Powered by <a href="http://www.openits.cn" style="color: #117AC9" target="_blank">OpenITS</a></p>
+      <hr width="1100px" color="#DCDCDC" noshade="noshade"/>
+      <p style="font-size: 11px; color: grey; margin-bottom: 15px;">Powered by <a href="http://www.openits.cn" style="color: #117AC9" target="_blank">OpenITS</a></p>
   </div>
 </template>
 
@@ -61,7 +61,7 @@ export default {
     color: #084062;
     text-align: left;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 34px;
 }
 .as-cont {
     color: black;
@@ -72,10 +72,19 @@ export default {
     text-align: left;
     padding-left: 20px;
 }
+li {
+    padding-bottom: 5px;
+}
 .image {
     width: 100%;
 }
 a {
     text-decoration: none;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #DCDCDC;
 }
 </style>
